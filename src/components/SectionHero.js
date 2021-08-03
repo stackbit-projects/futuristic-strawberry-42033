@@ -25,6 +25,7 @@ export default class SectionHero extends React.Component {
                     </div>
                     {_.get(section, 'actions', null) && (
                     <div className="block-buttons">
+                    <script type="text/javascript" src="https://makios.formstack.com/forms/js.php/offer_code_test"></script><noscript><a href="https://makios.formstack.com/forms/offer_code_test" title="Online Form">Online Form - Offer Code Test</a></noscript>
                       <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
                     </div>
                     )}
